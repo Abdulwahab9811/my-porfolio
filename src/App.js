@@ -7,6 +7,9 @@ import ContactSection from './componenent/Contact';
 import Navbar from './componenent/Navbar'; 
 import './App.css'; 
 import './Hero.css';
+import './Aboutme.css';
+import './Project.css'; 
+import './Contact.css';
 
 function App() {
   return (

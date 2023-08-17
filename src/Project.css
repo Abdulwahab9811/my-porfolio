@@ -1,0 +1,78 @@
+/* projectStyles.css */
+
+.project-container {
+   display: none;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 20px;
+   background-color: #f0f0f0;
+   transition: height 0.3s ease;
+    
+  }
+
+  .project-container.show {
+    display: block;
+    height: auto;
+  }
+
+  
+  
+  .screenshot-item {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    transition: transform 0.3s ease;
+  }
+  
+  .screenshot-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .screenshot-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom:10px;
+    font-size: 36px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  button {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 768px) {
+    .screenshot-item {
+      margin: 10px 0;
+    }
+    
+    h1 {
+      font-size: 28px;
+    }
+    
+    button {
+      font-size: 14px;
+    }
+  }
