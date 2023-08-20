@@ -1,0 +1,20 @@
+.App-container {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    animation: backgroundSlide 30s linear infinite ;
+    background-image: url('./images/space.png'); 
+    background-size: cover;
+    min-height: 100vh; 
+  }
+  
+  @keyframes backgroundSlide {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+};
+  

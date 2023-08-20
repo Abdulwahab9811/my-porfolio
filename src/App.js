@@ -7,6 +7,7 @@ import ContactSection from './componenent/Contact';
 import Navbar from './componenent/Navbar'; 
 import './App.css'; 
 import './Hero.css';
+import './HeroAnimation.css';
 import './Aboutme.css';
 import './Project.css'; 
 import './Contact.css';
@@ -14,7 +15,7 @@ import './Contact.css';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App-container">
         <Navbar />
         <Routes>
           <Route path="/" element={<HeroSection />} />
